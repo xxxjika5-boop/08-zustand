@@ -20,12 +20,10 @@
 
 .actions> :nth-child(2) {
     justify-self: center;
-    /* пагинация */
 }
 
 .actions> :nth-child(3) {
     justify-self: end;
-    /* кнопка */
 }
 
 .wrapper {
@@ -62,8 +60,16 @@
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.2s ease;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.createButton:visited {
+    color: #fff;
 }
 
 .createButton:hover {
     background-color: #0b5ed7;
+    color: #fff;
+    text-decoration: none;
 }
